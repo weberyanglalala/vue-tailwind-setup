@@ -1,4 +1,4 @@
-# vue-chat
+# vue-tailwind-setup
 
 This template should help get you started developing with Vue 3 in Vite.
 
@@ -120,7 +120,7 @@ export default {
 npm install -D prettier prettier-plugin-tailwindcss
 ```
 
-#### Update `.prettierrc.json
+#### Update `.prettierrc.json`
 
 ```json
 {
