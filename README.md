@@ -72,3 +72,58 @@ npm run lint
 
 ## Prettier Configuration
 - https://prettier.io/docs/en/
+
+## Tailwind CSS
+
+- https://tailwindcss.com/docs/guides/vite#vue
+
+### Install Dependencies
+
+```
+npm install -D tailwindcss postcss autoprefixer
+```
+
+### Create Tailwind, Postcss Configuration File
+
+```sh
+npx tailwindcss init -p
+```
+
+### Update `tailwind.config.js`
+
+```js
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
+  theme: {
+    extend: {}
+  },
+  plugins: []
+}
+```
+
+### Add tailwindcss to `main.css`
+
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+### Add tailwind prettier plugin
+
+- https://github.com/tailwindlabs/prettier-plugin-tailwindcss
+
+#### Install Dependencies
+
+```
+npm install -D prettier prettier-plugin-tailwindcss
+```
+
+#### Update `.prettierrc.json
+
+```json
+{
+  "plugins": ["prettier-plugin-tailwindcss"]
+}
+```
