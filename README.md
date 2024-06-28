@@ -58,3 +58,17 @@ npm run build
 ```sh
 npm run lint
 ```
+
+## ESLint Configuration
+
+> ESLint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code, with the goal of making code more consistent and avoiding bugs.
+
+- https://eslint.org/docs/latest/use/getting-started
+
+## ESLint Plugin for vue
+
+- https://vuejs.org/style-guide/
+- https://eslint.vuejs.org/
+
+## Prettier Configuration
+- https://prettier.io/docs/en/
